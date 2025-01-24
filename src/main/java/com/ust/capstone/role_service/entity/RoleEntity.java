@@ -29,7 +29,4 @@ public class RoleEntity {
     @Column(name = "role_name")
     private String roleName;
 
-    // @OneToMany(mappedBy = "roleInfo")
-    // @JsonBackReference
-    // private List<UserInfoPojo> allUsers;
 }
